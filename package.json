@@ -1,0 +1,17 @@
+{
+  "name": "@jedstrom/binary-heap",
+  "author": "Jacob Edstrom <jake@jedstrom.info>",
+  "version": "1.0.0",
+  "repository": "https://github.com/jedstrom/js-binary-heap",
+  "description": "Binary Heap implementation (min or max) supporting arbitrary element types via a client supplied comparator",
+  "license": "ISC",
+  "main": "src/binary-heap.js",
+  "scripts": {
+    "test": "node -r babel-register ./src/**.spec.js"
+  },
+  "devDependencies": {
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.18.0",
+    "tape": "^4.6.3"
+  }
+}
